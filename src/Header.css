@@ -1,0 +1,32 @@
+*{margin: 0; padding: 0;}
+.Header{
+    display: flex;
+    justify-content: space-between;
+    background-image: url(../src/img/landing.jpg);
+    height: 650px;
+}
+img{
+    height: 60px;
+    margin-top: 25px;
+    margin-right: 60px;
+}
+.ulHeader {
+    margin-top: 50px;
+}
+.ulHeader li{
+    list-style: none;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 15px;
+    color: #fff;
+}
+.registration{
+    margin-top: 50px;
+    margin-left: 60px;
+    margin-right: 80px;
+    color: #fff;
+}
+.registration i{
+    vertical-align: middle;
+    margin-left: 6px;
+}
