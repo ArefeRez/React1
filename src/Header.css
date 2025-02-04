@@ -1,17 +1,20 @@
 *{margin: 0; padding: 0;}
+.containerHeader{
+    background-image: url(../src/img/landing.jpg);
+}
+
 .Header{
     display: flex;
     justify-content: space-between;
-    background-image: url(../src/img/landing.jpg);
-    height: 650px;
 }
-img{
+#logoHeader{
     height: 60px;
     margin-top: 25px;
     margin-right: 60px;
 }
 .ulHeader {
     margin-top: 50px;
+    margin-bottom: 40px;
 }
 .ulHeader li{
     list-style: none;
@@ -29,4 +32,41 @@ img{
 .registration i{
     vertical-align: middle;
     margin-left: 6px;
+}
+#h2-1{
+    margin-top: 60px;
+    font-size: 26px;
+    color: #fff;
+}
+#h2-2{
+    line-height: 60px;
+    color: #fff;
+    font-size: 22px;
+}
+.containerHeader input{
+    width: 580px;
+    height: 50px;
+    border-radius: 40px;
+    border: none;
+    margin-top: 50px;
+    margin-bottom: 60px;
+    padding-right: 20px;
+    font-size: 18px;
+    color: #000;
+}
+.imgsHeader{
+    display: flex;
+    justify-content: center;
+}
+.imgsHeader img{
+    width: 140px;
+    height: 140px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.imgsHeader p{
+    color: #fff;
+}
+#p2{
+    margin-bottom: 47px;
 }
