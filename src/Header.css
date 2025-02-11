@@ -1,6 +1,7 @@
 *{margin: 0; padding: 0;}
 .containerHeader{
     background-image: url(../src/img/landing.jpg);
+    text-align: center;
 }
 
 .Header{

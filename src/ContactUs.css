@@ -1,0 +1,92 @@
+.container{
+    display: flex;
+}
+#containerContact{
+    width: 40%;
+    margin-top: 60px;
+    margin-right: 50px;
+}
+.contact{
+    line-height: 30px;
+    border: 1px solid #ecf0f4;
+    margin: 30px;
+    padding: 25px;
+    border-radius: 5px;
+}
+.contactIcon{
+    display: flex;
+    line-height: 50px;
+}
+.contactIcon p,i{
+    color: #1c84ef;
+    font-weight: 500;
+}
+.containerForm{
+    width: 60%;
+}
+#pTitle{
+    margin-top: 80px;
+    text-align: center;
+}
+#problem{
+    color: #00b3e9;
+    background-color: #effafd;
+    border: 1px solid #a3def2;
+    padding: 15px;
+    margin-bottom: 20px;
+    width: 90%;
+    margin-top: 30px;
+    border-radius: 5px;
+}
+#nameUndNumber{
+    display: flex;
+    width: 100%;
+    gap: 30px;
+}
+.name , .number , .email , .title,.description{
+    display: flex;
+    color: #6e8ea4;
+    margin-top: 30px;
+}
+.name i , .email i ,.number i ,.title i,.description i{
+    color: #6e8ea4 !important;
+    margin-left: 8px;
+}
+#inputNumber , #inputName ,#inputTitle, #inputEmail,#inputDescription{
+    margin-left: 6px;
+    font-size: 14px;
+    width: 100%;
+    line-height: 40px;
+    height: 40px;
+    padding: 0 15px;
+    border: 1px solid #e4ecef;
+    color: #56707c;
+    font-size: 14px;
+    word-spacing: -1px;
+    margin-top: 8px;
+}
+#inputEmail,#inputTitle{
+    width: 90%;
+}
+#inputDescription{
+    width: 90%;
+    height: 100px;
+}
+.containerForm button{
+    line-height: 40px;
+    height: 40px;
+    text-align: center;
+    padding: 0 20px;
+    color: #fff;
+    background-color: #6fc341;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    margin-top: 60px;
+    margin-bottom: 70px;
+}
+#buttonForm{
+    display: flex;
+    justify-content: left;
+    margin-left: 50px;
+}

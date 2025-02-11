@@ -31,9 +31,10 @@
     text-overflow: ellipsis;
 }
 .p2{
-    color: gray;
+    color: #778286;
     font-size: 13px;
 }
 .p3{
     text-align: left !important;
+    color: #6fc641;
 }
