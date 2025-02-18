@@ -2,6 +2,8 @@
     display: flex;
 }
 #containerContact{
+    display: flex;
+    flex-direction: column;
     width: 40%;
     margin-top: 60px;
     margin-right: 50px;
@@ -16,6 +18,9 @@
 .contactIcon{
     display: flex;
     line-height: 50px;
+}
+.contactIcon :hover{
+cursor: pointer;
 }
 .contactIcon p,i{
     color: #1c84ef;

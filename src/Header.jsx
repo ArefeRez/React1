@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./Header.css";
 const Header = () => {
   return (
@@ -21,7 +22,7 @@ const Header = () => {
               <li>همکاری با تاپ لرن</li>
               <li>مشاوره و رفع اشکال آنلاین</li>
               <li>لینک های مفید</li>
-              <li>تماس با ما</li>
+              <Link to={'/contactus'}>تماس با ما</Link>
             </ul>
           </div>
           <div className="registration">
