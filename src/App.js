@@ -12,6 +12,7 @@ import "./Card.css";
 import Home from "./Home";
 import { Route, Routes } from 'react-router-dom';
 import ContactUs from './ContactUs';
+import ProduktDetails from './ProduktDetails';
 function App() {
   return (
     <Layout>
@@ -19,6 +20,7 @@ function App() {
       <Route>
         <Route path={"/"} element={<Home/>}/>
         <Route path={"/ContactUs"} element={<ContactUs/>}/>
+        <Route path={"/Details/:id"} element={<ProduktDetails/>}/>
       </Route>
     </Routes>
     </Layout>
